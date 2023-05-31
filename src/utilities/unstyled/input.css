@@ -1,14 +1,14 @@
-.input{
-  &-md{
-    @apply px-4 h-12 text-sm leading-loose;
+.input {
+  &-xs {
+    @apply h-6 px-2 text-xs leading-relaxed;
   }
-  &-lg{
-    @apply px-6 h-16 text-lg leading-loose;
+  &-md {
+    @apply h-12 px-4 text-sm leading-loose;
   }
-  &-sm{
-    @apply px-3 h-8 text-sm leading-8;
+  &-lg {
+    @apply h-16 px-6 text-lg leading-loose;
   }
-  &-xs{
-    @apply px-2 h-6 text-xs leading-relaxed;
+  &-sm {
+    @apply h-8 px-3 text-sm leading-8;
   }
 }

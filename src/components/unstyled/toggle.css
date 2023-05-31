@@ -1,5 +1,3 @@
-.toggle{
-  &:focus {
-    @apply outline-none;
-  }
+.toggle {
+  @apply shrink-0;
 }
